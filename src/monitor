@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar  2 01:22:46 2017
+
+@author: xlw
+"""
+import mystocktools as mt
+import sys
+
+high,code = mt.gethigh(sys.argv[1]) # git latest peak price
+mt.monitor(high,code) # monitor stock with a tick='code', signal when new high is hit or price drops below your preset threshold.
+
+
+
+
+    
+    

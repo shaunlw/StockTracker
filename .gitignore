@@ -1,0 +1,6 @@
+src/__Pycache/
+.DS_Store
+*.pyc
+data/*
+basics/
+
