@@ -1,6 +1,6 @@
 src/__Pycache/
 .DS_Store
-*.pyc
 data/*
+!data/.gitkeep
 basics/
-*.xlsx
+
